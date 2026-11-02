@@ -9,6 +9,10 @@ DerivedData/
 xcshareddata/WorkspaceSettings.xcsettings
 # Xcode 方案的本地配置（个人调试方案）
 xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.hmap
+.build/
 # 项目包依赖缓存（若用 Swift Package Manager）
 .swiftpm/xcode/package.xcworkspace/xcuserdata/
 
@@ -19,6 +23,7 @@ xcuserdata/
 .AppleDouble
 # macOS 资源分支文件
 .LSOverride
+._*
 # macOS 垃圾桶文件
 .Trashes
 # macOS 临时文件
@@ -30,7 +35,10 @@ temp/
 *.app
 # 调试符号文件（dSYM，仅本地调试/归档用）
 *.dSYM/
-# 归档文件（ipa/pkg 等分发产物）
+*.dSYM.zip
+# 归档文件（xcarchive/dmg/ipa/pkg 等分发产物）
+*.xcarchive
+*.dmg
 *.ipa
 *.pkg
 # 日志文件

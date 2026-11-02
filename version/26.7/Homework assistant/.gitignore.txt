@@ -1,0 +1,32 @@
+# --- macOS 系统垃圾 (必须屏蔽) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Xcode 用户隐私设置 (必须屏蔽) ---
+# 保护你的电脑用户名和窗口布局不被上传
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+*.xccheckout
+
+# --- 编译产生的垃圾 ---
+build/
+DerivedData/
+*.hmap
+.build/
+
+# --- ⚠️ 打包与隐私敏感文件 (最关键的部分) ---
+# 这些文件包含签名信息(真实姓名)或体积过大
+*.xcarchive
+*.ipa
+*.dmg
+*.dSYM.zip
+*.dSYM
+
+# --- Swift Package Manager ---
+.swiftpm/
+
+# --- CocoaPods (虽然你没用，但留着无害) ---
+Pods/
